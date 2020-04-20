@@ -2,13 +2,15 @@
 ##########################################################################
 #
 # BACKUP - CLIENTE
-# Autor: Easytec Infomática - CNPJ 21.326.457/0001-60 - contato@easytecinformatica.com
+# Autor: Marcelo Junges - marcelo0363@hotmail.com
 # Funcao: Fazer o backup diario de todos os dados compartilhados em hd externo
 # Data implatação: 28/07/2019
 # IP SERVIDOR: 0.0.0.0
 #
 # Instrucoes de uso:
 # implementar no crontab com o seguinte comando
+# 00 20 * * * /caminho/do/script.sh
+#com este comando o script será executado todo dia as 20h. 
 #########################################################################
 #
 #
